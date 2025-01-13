@@ -5,7 +5,7 @@
 
 - 拉库命令
 
-  - 可以直链github/国外机:   `ql repo https://github.com/AKA-Cigma/QLscripts.git`
+  - 可以直链github/国外机:   `ql repo https://github.com/shunian525/shunian-QL.git`
 
 # 特别声明
 
