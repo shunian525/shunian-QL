@@ -36,16 +36,6 @@ points_url = 'https://stdcrm.dtmiller.com/scrm-promotion-service/mini/wly/user/i
 
 def get_proclamation():
     external_url = "https://github.com/3288588344/toulu/raw/refs/heads/main/tl.txt"
-    try:
-        response = requests.get(external_url)
-        if response.status_code == 200:
-            print(response.text)
-            print("公告获取成功，开始执行任务...")
-        else:
-            print(f"获取公告失败，状态码: {response.status_code}")
-    except requests.exceptions.RequestException as e:
-        print(f"获取公告时发生错误: {e}")
-
 
 get_proclamation()
 
