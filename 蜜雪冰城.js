@@ -86,7 +86,6 @@ class MXBCClient {
      */
     async signIn() {
         if (!this.valid) return "账号无效跳过签到";
-        
         try {
             const options = this.generateRequestOptions("/api/v1/customer/signin");
             const response = await this._request(options);
