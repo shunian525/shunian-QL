@@ -1,4 +1,11 @@
 #多号换行，变量名：sfsyUrl
+#关于参数获取如下两种方式：
+#❶顺丰APP绑定微信后，前往该站点sm.linzixuan.work用微信扫码登录后，选择复制编码Token，不要复制错
+#或者
+#❷打开小程序或APP-我的-积分, 手动抓包以下几种URL之一
+#https://mcs-mimp-web.sf-express.com/mcs-mimp/share/weChat/shareGiftReceiveRedirect
+#https://mcs-mimp-web.sf-express.com/mcs-mimp/share/app/shareRedirect
+#抓好URL后访问https://www.toolhelper.cn/EncodeDecode/Url进行编码，请务必按提示操作
 # const $ = new Env('顺丰速运')
 import hashlib
 import json
