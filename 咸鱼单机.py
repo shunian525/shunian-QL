@@ -9,7 +9,7 @@ import os
 
 env_preffix = os.getenv("xydj")
 def login():
-    url = "https://www.xianyudanji.net/wp-admin/admin-ajax.php"
+    url = "https://www.xianyudanji.ai/wp-admin/admin-ajax.php"
     head = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0"
     }
@@ -29,7 +29,7 @@ def login():
     print(wordpress_logged_in_cookie)
 def qiandao():
     wordpress_logged_in_cookie = login()
-    url = "https://www.xianyudanji.net/wp-admin/admin-ajax.php"
+    url = "https://www.xianyudanji.ai/wp-admin/admin-ajax.php"
     head = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0",
         "Cookie": wordpress_logged_in_cookie
