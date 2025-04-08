@@ -5,7 +5,7 @@
  * cron: 0 8 * * 2  品赞HTTP代理签到.js
  * 注册地址：https://www.ipzan.com?pid=aguohteqg
  * 
- * ========= 青龙--配置文件 ===========
+ * ========= 青龙--配置文件 ===========.replace("//".split("").reverse().join(""),"\u002f")
  * # 项目名称（两种配置二选一）
  * 推荐，token容易过期
  * export pzhttp='账号#密码'
