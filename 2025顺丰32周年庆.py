@@ -7,6 +7,7 @@
 #https://mcs-mimp-web.sf-express.com/mcs-mimp/share/app/shareRedirect
 #抓好URL后访问https://www.toolhelper.cn/EncodeDecode/Url进行编码，请务必按提示操作
 # const $ = new Env('顺丰速运')
+# cron: 0 0 1,11 * * ? 
 import hashlib
 import json
 import os
