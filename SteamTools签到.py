@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+#cron: 0 9 * * *
 """
 SteamTools 论坛自动签到脚本
 环境变量名：steamtools
