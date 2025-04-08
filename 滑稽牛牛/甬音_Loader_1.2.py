@@ -8,7 +8,7 @@
 #   * 3号以上必须使用代理不用就黑号 使用代理请填写代理Api链接 到 Huaji_YP_YYDaiLi 推荐使用熊猫代理:http://www.xiongmaodaili.com?invitationCode=CEC443B8-B7A4-408A-8BDC-A535AC9CA14A
 #
 #   多号分割方式 [ 换行 或 新建同名变量 ]
-#   corn: 一天一次即可
+#   cron: 0 10 * * *
 #   Powered by Huaji [3487934983] && QQ Group [901898186]
 #   --------------------------------祈求区--------------------------------
 #                     _ooOoo_
