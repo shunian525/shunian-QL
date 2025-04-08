@@ -1,5 +1,5 @@
 /**
- * cron "39 11,19 * * *" FTEJ.js
+ * cron "0 8 * * *" FTEJ.js
  * export FTEJ="账号1&密码1&ua&device_id&deviceSystem&device_model # 账号2&密码2&ua&device_id&deviceSystem&device_model" 
  * 解决异地短信问题 多账号分割符号#你可以自己改
  */
@@ -11,7 +11,7 @@ let token = ''
 let notice = ''
 !(async () => {
     await main();
-})().catch((e) => {$.log(e)}).finally(() => {$.done({});});
+})()。catch((e) => {$.log(e)}).finally(() => {$.done({});});
 
 async function main() {
     console.log('作者：@xzxxn777\n频道：https://t.me/xzxxn777\n群组：https://t.me/xzxxn7777\n自用机场推荐：https://xn--diqv0fut7b.com\n')
