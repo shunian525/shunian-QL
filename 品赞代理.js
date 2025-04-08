@@ -2,8 +2,7 @@
  * 品赞HTTP代理签到v1.2 
  * 20240923修复版 ArcadiaScriptPublic  频道：https://t.me/ArcadiaScript 群组：https://t.me/ArcadiaScriptPublic
  * const $ = new Env("品赞HTTP代理签到");
-   cron: 0 8 * * 2  
- *品赞HTTP代理签到.js
+ * cron: 0 8 * * 2  品赞HTTP代理签到.js
  * 注册地址：https://www.ipzan.com?pid=aguohteqg
  * 
  * ========= 青龙--配置文件 ===========
